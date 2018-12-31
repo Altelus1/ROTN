@@ -42,7 +42,10 @@ print("""
 if len(sys.argv) < 5:
 	print("""
 		Correct Argument not supplied:
-		Usage: python3 ROTN.py 
+		Usage: python3 ROTN.py <input_file> <output_file> <rot_no> <enumerate_each_rot(y/n)>
+		Example: 
+			-python3 ROTN.py in.txt out.txt 26 y
+			-python3 ROTN.py in.txt out.txt 3 n
 	""")
 	exit(0)
 
